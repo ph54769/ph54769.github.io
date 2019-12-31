@@ -1,0 +1,96 @@
+* {
+  font-size: 18px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+p {
+  text-indent: 1rem;
+}
+
+section {
+  min-height: 100vh;
+  padding-top: 150px;
+}
+
+/* left */
+
+.my-profile-bg {
+  background: #F2F3F7;
+}
+
+.my-photo {
+  height: 7rem;
+  width: 7rem;
+  object-fit: scale-down;
+  background: #ffffff;
+}
+
+
+.nav-item:hover,
+.nav-item:focus,
+.nav-item:active {
+  border-bottom: 1.5px solid rgb(252, 191, 191) !important;
+  margin-bottom: -1.5px;
+  transition: .3s;
+  /* transform: scaleY(1.05); */
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+  border-bottom: 1.5px solid rgb(252, 191, 191) !important;
+  margin-bottom: -1.5px;
+  transition: .5s;
+  /* transform: scale(1.05); */
+}
+
+.version {
+  bottom: 10px;
+}
+
+.version > a {
+  font-size: .8rem;
+}
+
+.version > a:hover {
+  color: rgb(175, 176, 177);
+  border-bottom: 1px solid rgb(175, 176, 177);
+}
+
+/* right */
+
+.padding {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.content {
+  background: #F2F3F7;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.go-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 1rem;
+}
+/* 
+@media (min-width: 768px) {
+  nav {
+    height: 3rem;
+    transition: 0.3s;
+  }
+  nav:hover {
+    height: 3.5rem;
+  }
+} */
