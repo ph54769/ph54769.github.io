@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap'); */
 * {
+  font-family: 'Noto Sans TC', sans-serif;
+  /* font-family: 'Noto Serif TC', serif; */
+
   font-size: 18px;
 }
 
@@ -59,11 +64,15 @@ section {
 
 .version > a {
   font-size: .8rem;
+  color: rgb(175, 176, 177);
 }
 
 .version > a:hover {
-  color: rgb(175, 176, 177);
-  border-bottom: 1px solid rgb(175, 176, 177);
+  border-bottom: 1.5px solid rgb(252, 191, 191) !important;
+  margin-bottom: -1.5px;
+  transition: .3s;
+  color: rgb(59, 59, 59);
+  /* border-bottom: 1px solid rgb(175, 176, 177); */
 }
 
 /* right */
@@ -77,6 +86,14 @@ section {
   background: #F2F3F7;
   padding: 10px 20px;
   border-radius: 8px;
+}
+
+.block {
+  margin: 20px 0;
+  padding: 10px 15px;
+  border: 1px solid rgb(200, 200, 202);
+  border-radius: 6px;
+  /* box-shadow: 4px 5px 10px 4px rgba(128, 128, 128, 0.5); */
 }
 
 .go-top {
