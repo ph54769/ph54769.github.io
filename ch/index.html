@@ -25,17 +25,12 @@
               <div class="text-center my-fontsize">
                 <img src="/img/peihong.jpg" class="img-fluid rounded-circle my-photo" alt="peihong">
                 <div class="mt-2">
-                  <h3>吳沛洪</h3>
-                  <h3>Pei-Hong Wu</h3>
+                  <h4>吳沛洪</h4>
+                  <h4>Pei-Hong Wu</h4>
                 </div>
               </div>
 
-              <nav class="navbar navbar-expand-md navbar-light justify-content-center mt-3">
-                <div>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarResponsive">
+              <nav class="navbar navbar-light justify-content-center mt-3">
                     <ul class="navbar-nav flex-column text-center">
                       <li class="nav-item">
                         <a href="#about" class="nav-link">自我簡介</a>
@@ -53,23 +48,21 @@
                         <a href="#projects" class="nav-link">專案</a>
                       </li>
                     </ul>
-                  </div>
-                </div>
               </nav>
             </div>
 
             <div class="d-flex flex-column w-100">
-              <div class="text-center mb-1">聯絡我</div>
+              <div class="contact text-center mb-1">聯絡我</div>
               <hr class="w-75 mt-1">
               <div class="d-flex justify-content-around align-self-center w-75">
                 <a href="https://www.facebook.com/profile.php?id=100001679837823">
-                  <i class="fab fa-facebook-square" style="font-size: 1.5rem; color: rgb(0, 132, 255);"></i>
+                  <i class="fab fa-facebook-square my-icon" style="color: rgb(0, 132, 255);"></i>
                 </a>
                 <a href="https://line.me/ti/p/za7ddKx3D3">
-                  <i class="fab fa-line" style="font-size: 1.5rem; color: rgb(15, 194, 9);"></i>
+                  <i class="fab fa-line my-icon" style="color: rgb(15, 194, 9);"></i>
                 </a>
                 <a href="Mailto:z0922943160@gmail.com">
-                  <i class="fas fa-envelope-square" style="font-size: 1.5rem; color: rgb(212,76,61);"></i>
+                  <i class="fas fa-envelope-square my-icon" style="color: rgb(212,76,61);"></i>
                 </a>
               </div>
             </div>
@@ -84,13 +77,49 @@
 
       <div class="col-8 col-md-9">
         <section class="container" id="about">
-          <h5>關於我</h5>
-          <h2>我是誰</h2>
+          <h2>關於我</h2>
 
-          <div class="container">
-            <p> 我是吳沛洪，研究所就讀於成大電機所 VLSI / CAD 組，大學為高雄大學電機系，研究領域是關於晶片設計與驗證 / 電子設計自動化 / 正規驗證，論文實作為驗證工具的演算法開發，其中程式語言使用 c++ 與
-              java，因論文與興趣不合等因素休學，當兵退伍後開始接觸到網頁前後端程式設計，目前使用
-              Laravel 進行網頁開發並正學習 vuejs 前端框架。</p>
+          <div class="container padding">
+            <p> 我是吳沛洪，屏東縣潮州人，民國 83 年 6 月 6 日生。研究所就讀於國立成功大學電機所 VLSI / CAD 組，大學為國立高雄大學電機系，研究領域是關於晶片設計與驗證 / 電子設計自動化 /
+              正規驗證。論文實作為驗證工具的演算法開發，其中程式語言使用 C++ 與
+              Java，在成大就讀兩年後因論文與指導教授無法達成共識而休學。</p>
+            <p>在當兵退伍後開始接觸到網頁前後端程式設計，透過線上資源自學兩個月後，目前接案使用
+              Laravel 進行網頁開發並利用時間學習 Vue.js 前端框架，希望能充實自己能力。</p>
+          </div>
+
+          <div id="slides" class="carousel slide padding" data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#slides" data-slide-to="0" class="active"></li>
+              <li data-target="#slides" data-slide-to="1"></li>
+              <li data-target="#slides" data-slide-to="2"></li>
+              <li data-target="#slides" data-slide-to="3"></li>
+            </ul>
+        
+            <div class="carousel-inner text-center">
+              <div class="carousel-item active">
+                <a href="#about">
+                  <img src="/img/ph5-1.jpg" alt="bg">
+                </a>
+              </div>
+              <div class="carousel-item">
+                <img src="/img/1.jpg" alt="bg">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/2.jpg" alt="bg">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/3.jpg" alt="bg">
+              </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
         </section>
 
@@ -104,14 +133,14 @@
               <h5>網頁相關</h5>
               <hr class="my-1">
               <div class="d-flex justify-content-start flex-wrap">
-                <div class="mr-5 mb-2 border-bottom border-dark">Html</div>
-                <div class="mr-5 mb-2 border-bottom border-info">Css</div>
-                <div class="mr-5 mb-2 border-bottom border-warning">Javascript</div>
+                <div class="mr-5 mb-2 border-bottom border-dark">HTML</div>
+                <div class="mr-5 mb-2 border-bottom border-info">CSS</div>
+                <div class="mr-5 mb-2 border-bottom border-warning">JavaScript</div>
                 <div class="mr-5 mb-2 border-bottom border-danger">PHP</div>
                 <div class="mr-5 mb-2 border-bottom border-success">Laravel</div>
                 <div class="mr-5 mb-2 border-bottom">MySQL</div>
-                <div class="mr-5 mb-2 border-bottom border-secondary">Bootstrap</div>
-                <div class="mr-5 mb-2 border-bottom border-primary">Vuejs</div>
+                <div class="mr-5 mb-2 border-bottom border-secondary">Bootstrap4</div>
+                <div class="mr-5 mb-2 border-bottom border-primary">Vue.js</div>
               </div>
             </div>
 
@@ -170,17 +199,7 @@
                 <h5>網頁接案</h5>
               </div>
               <div class="col-md-6 content">
-                與朋友一起組團隊，目前正在草創初期，接案內容主要為網頁相關，而我負責網頁後端建立。主要使用 Laravel 框架。
-              </div>
-            </div>
-
-            <div class="row padding">
-              <div class="col-md-6">
-                <h5>2019.03 - 2019.07 </h5>
-                <h5>國軍 online</h5>
-              </div>
-              <div class="col-md-6 content">
-                被政府抓去台南官田做步槍兵，在熱死人不償命的天氣中，經歷四個月的操練與行軍，練就堅忍不拔的毅力與不輕易放棄的個性。
+                目前接案內容主要為網頁相關，主要使用 Laravel 框架。
               </div>
             </div>
 
@@ -210,7 +229,7 @@
                 <h5>計算機概論 - 助教</h5>
               </div>
               <div class="col-md-6 content">
-                協助老師規劃課程內容，課後輔助學生問題解惑，設計學期專題、課後作業及助教時間輔導。課程所使用語言為 C++，專題則套用 Qt。
+                協助老師規劃課程內容，課後輔助學生問題解惑，設計學期專題、課後作業及助教時間輔導。課程所使用語言為 C++，專題則套用 Qt 開發框架。
               </div>
             </div>
           </div>
@@ -264,10 +283,10 @@
               </div>
               <div class="col-md-6 content">
                 此專案是位於瑞士的一間<a href="http://mfn.li/"
-                  class="font-weight-bold">金屬表面處理雜誌公司</a>，因網站年久失修，常發現網站有相關圖片資料等發生消失、連結錯誤等情況，業主希望將網站錯誤解決。
+                  class="font-weight-bold">金屬表面處理雜誌公司</a>，在使用網站時常發現有圖片、文件或連結等資料消失的情況，且網站已有許多年無維護，業主希望將網站錯誤解決並翻修網站。
                 <br>
-                因為此網站程式約有六七年無維護，其中 PHP 語法老舊且架構雜亂，我們決定改以 Laravel 將程式重構，並重新設計 API，而目前進度已完成前端介面、部分頁面 API
-                與後端資料存取，整個專案預計二月底完工。
+                此網站中原 PHP 語法老舊且架構歷相當雜亂，故決定改以 Laravel 將程式重構，並將資料庫重整，專案主要內容包括響應式前端介面、頁面 API
+                與後台資料存取，而目前專案進度已處於收尾階段。
               </div>
             </div>
 
@@ -278,22 +297,24 @@
               </div>
               <div class="col-md-6 content">
                 這個<a href="http://ph5.epizy.com/public/" class="font-weight-bold">仿 IG 網站</a>是我學習 laravel
-                後第一個作品，用意是希望能透過專案來練習學到的技術，並了解網站實際上的架構流程運作。這網站擁有的功能與實際 IG 雷同，如帳號管理、貼文 CRUD 功能、使用者追蹤等。
-                而在這專案中更加體會 Laravel 的強大，例如內建架構的完善性、Composer 套件支援，與 Eloquent ORM 的方便性，更透過這專案學習到了 Mysql、Bootstrap4 與 Vuejs。
+                後第一個作品，用意是希望能透過專案來練習學到的技術，並了解網站實際上的架構流程運作。這網站擁有的功能與實際 IG 雷同，如帳號管理、貼文 CRUD 功能、使用者追蹤留言等。
+                而在這專案中更加體會 Laravel 的強大，例如內建架構的完善性、Composer 套件支援，與 Eloquent ORM 的方便性，更透過這專案學習到了 MySQL、Bootstrap4 與 Vue.js。
               </div>
             </div>
 
             <div class="row padding">
               <div class="col-md-6">
-                <h5>2019.09 - 2019.10</h5>
+                <h5>2017.09 - 2019.01</h5>
                 <h5>碩論 - 針對緊急型即時系統之機率模型驗證</h5>
               </div>
               <div class="col-md-6 content">
-                在模型驗證中，要去驗證即時系統之行為時，會使用時間狀態機模型樣式來模擬。然而對於時間狀態機的呈現方法中，狀態進行轉換動作的部分是沒有強迫語意的，代表系統可能未在轉換允許的時間範圍內動作，而系統時間繼續處在原狀態中演進，卻再無可滿足該時間範圍之轉換可進行，導致系統應有的行為可能因為建模語言的缺失而呈現錯誤。
+                在模型驗證中，要去驗證即時系統之行為時，會使用時間狀態機來模擬。然而對於時間狀態機的呈現方法中，狀態進行轉換動作的部分是沒有強迫語意的，代表系統可能未在轉換允許的時間範圍內動作，而系統時間繼續處在原狀態中演進，卻再無可滿足該時間範圍之轉換可進行，導致系統應有的行為可能因為建模語言的缺失而呈現錯誤。
                 <br>
                 針對這項問題，先前的研究中提出了緊急型語意的概念來解決，透過緊急型語意會使時間狀態機之轉換具有能強制動作的功用，依照給予的語意在所規範的時間內必須進行轉換，使系統行為能準確地被描述。
                 <br>
                 然而在以往模型驗證器中，緊急型語意都只應用於單純的即時系統模型驗證，考量於現今系統功能逐漸複雜化之趨勢，許多系統除了時間的特性外更擁有機率的行為，像是網路溝通協定等。所以我們將緊急型語意運用至可分析機率行為之即時系統中，建立了可針對緊急型即時系統之機率模型驗證，並且可透過實驗數據量化分析，比較系統在應用緊急型語意後之行為差異。
+                <br>
+                在碩論中使用 PRISM 開源碼模型驗證器，並使用 Java 和 JavaCC 撰寫 Compiler 與演算法。 
               </div>
             </div>
           </div>
@@ -461,7 +482,7 @@
   </div>
   -->
 
-  <div class="text-success go-top">
+  <div class="go-top">
     <a href="#">
       <i class="fas fa-angle-up"></i>
       Top
