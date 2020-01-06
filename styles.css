@@ -18,6 +18,12 @@ a {
 
 p {
   text-indent: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  text-indent: 2rem;
 }
 
 section {
