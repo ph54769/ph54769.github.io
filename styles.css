@@ -31,7 +31,7 @@ span {
 
 section {
   min-height: 100vh;
-  padding-top: 150px;
+  padding-top: 120px;
 }
 
 /* left */
@@ -81,7 +81,8 @@ section {
 }
 
 .version {
-  bottom: 1rem;
+  /* left: 36.5%;
+  bottom: -4rem; */
 }
 
 .version > a {
