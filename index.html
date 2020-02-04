@@ -56,13 +56,13 @@
               <div class="contact text-center mb-1">Contact me</div>
               <hr class="w-75 mt-1">
               <div class="d-flex justify-content-around align-self-center w-75">
-                <a href="https://www.facebook.com/profile.php?id=100001679837823">
+                <a href="https://www.facebook.com/profile.php?id=100001679837823" target="_blank">
                   <i class="fab fa-facebook-square my-icon" style="color: rgb(0, 132, 255);"></i>
                 </a>
-                <a href="https://line.me/ti/p/za7ddKx3D3">
+                <a href="https://line.me/ti/p/za7ddKx3D3" target="_blank">
                   <i class="fab fa-line my-icon" style="color: rgb(15, 194, 9);"></i>
                 </a>
-                <a href="Mailto:z0922943160@gmail.com">
+                <a href="Mailto:z0922943160@gmail.com" target="_blank">
                   <i class="fas fa-envelope-square my-icon" style="color: rgb(212,76,61);"></i>
                 </a>
               </div>
@@ -83,7 +83,7 @@
           <h2>About me</h2>
 
           <div class="container padding">
-            <p> Hi, I am Pei-Hong Wu, I studied in the VLSI / CAD team at department of electrical engineering of the
+            <p> Hi, I am Pei-Hong Wu, 25 years old. I studied in the VLSI / CAD team at department of electrical engineering of the
               National Cheng Kung University. Bachelor's Degree was graduated from the Department of Electrical
               Engineering of National University of Kaohsiung.
             </p>
@@ -96,7 +96,7 @@
             </p>
             <p> After militaries, I began to learn web front-end and back-end programming. After two months of
               self-learning through online resources, I currently uses Laravel to develop web pages and use other time
-              to learn Vue.js front-end framework. </p>
+              to learn others framework like Vue.js. </p>
           </div>
 
           <div id="slides" class="carousel slide padding" data-ride="carousel">
@@ -104,7 +104,6 @@
               <li data-target="#slides" data-slide-to="0" class="active"></li>
               <li data-target="#slides" data-slide-to="1"></li>
               <li data-target="#slides" data-slide-to="2"></li>
-              <li data-target="#slides" data-slide-to="3"></li>
             </ul>
 
             <div class="carousel-inner text-center">
@@ -114,18 +113,13 @@
                 </a>
               </div>
               <div class="carousel-item">
+                <a href="#mfnProj">
+                  <img src="/img/mfn-1.JPG" alt="bg">
+                </a>
+              </div>
+              <div class="carousel-item">
                 <a href="#instagram">
                   <img src="/img/1.JPG" alt="bg">
-                </a>
-              </div>
-              <div class="carousel-item">
-                <a href="#instagram">
-                  <img src="/img/2.JPG" alt="bg">
-                </a>
-              </div>
-              <div class="carousel-item">
-                <a href="#instagram">
-                  <img src="/img/3.JPG" alt="bg">
                 </a>
               </div>
             </div>
@@ -316,10 +310,39 @@
           <h2>Projects</h2>
           <hr>
           <div class="container">
-            <div class="row padding">
+            <div class="row padding" id="mfnProj">
               <div class="col-md-6">
                 <h5>2019.11 - now</h5>
                 <h5>Code refactoring</h5>
+
+                <div id="mfn" class="carousel slide p-3" data-ride="carousel">
+                  <ul class="carousel-indicators">
+                    <li data-target="#mfn" data-slide-to="0" class="active"></li>
+                    <li data-target="#mfn" data-slide-to="1"></li>
+                  </ul>
+      
+                  <div class="carousel-inner text-center my-carousel-inProject">
+                    <div class="carousel-item active">
+                      <a href="http://mfn.li/">
+                        <img src="/img/mfn-1.JPG" alt="bg">
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="http://mfn.li/">
+                        <img src="/img/mfn-2.JPG" alt="bg">
+                      </a>
+                    </div>
+                  </div>
+      
+                  <a class="carousel-control-prev" href="#mfn" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#mfn" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
               </div>
               <div class="col-md-6 content">
                 <p>The employer of this project is <a href="http://mfn.li/" class="font-weight-bold"> a company of metal
@@ -342,6 +365,41 @@
               <div class="col-md-6">
                 <h5>2019.09 - 2019.10</h5>
                 <h5>Instagram-like social system</h5>
+
+                <div id="ig" class="carousel slide p-3" data-ride="carousel">
+                  <ul class="carousel-indicators">
+                    <li data-target="#ig" data-slide-to="0" class="active"></li>
+                    <li data-target="#ig" data-slide-to="1"></li>
+                    <li data-target="#ig" data-slide-to="2"></li>
+                  </ul>
+      
+                  <div class="carousel-inner text-center my-carousel-inProject">
+                    <div class="carousel-item active">
+                      <a href="#instagram">
+                        <img src="/img/1.JPG" alt="bg">
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="#instagram">
+                        <img src="/img/2.JPG" alt="bg">
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="#instagram">
+                        <img src="/img/3.JPG" alt="bg">
+                      </a>
+                    </div>
+                  </div>
+      
+                  <a class="carousel-control-prev" href="#ig" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#ig" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
               </div>
               <div class="col-md-6 content">
                 <p>

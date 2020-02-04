@@ -55,13 +55,13 @@
               <div class="contact text-center mb-1">聯絡我</div>
               <hr class="w-75 mt-1">
               <div class="d-flex justify-content-around align-self-center w-75">
-                <a href="https://www.facebook.com/profile.php?id=100001679837823">
+                <a href="https://www.facebook.com/profile.php?id=100001679837823" target="_blank">
                   <i class="fab fa-facebook-square my-icon" style="color: rgb(0, 132, 255);"></i>
                 </a>
-                <a href="https://line.me/ti/p/za7ddKx3D3">
+                <a href="https://line.me/ti/p/za7ddKx3D3" target="_blank">
                   <i class="fab fa-line my-icon" style="color: rgb(15, 194, 9);"></i>
                 </a>
-                <a href="Mailto:z0922943160@gmail.com">
+                <a href="Mailto:z0922943160@gmail.com" target="_blank">
                   <i class="fas fa-envelope-square my-icon" style="color: rgb(212,76,61);"></i>
                 </a>
               </div>
@@ -81,11 +81,11 @@
           <h2>關於我</h2>
 
           <div class="container padding">
-            <p> 我是吳沛洪，屏東縣潮州人，民國 83 年 6 月 6 日生。研究所就讀於國立成功大學電機所 VLSI / CAD 組，大學為國立高雄大學電機系，研究領域是關於晶片設計與驗證 / 電子設計自動化 /
+            <p> 我是吳沛洪，屏東縣潮州人，25歲。研究所就讀於國立成功大學電機所 VLSI / CAD 組，大學為國立高雄大學電機系，研究領域是關於晶片設計與驗證 / 電子設計自動化 /
               正規驗證。論文實作為驗證工具的演算法開發，其中程式語言使用 C++ 與
               Java，在成大就讀兩年後因論文與指導教授無法達成共識而休學。</p>
             <p>在當兵退伍後開始接觸到網頁前後端程式設計，透過線上資源自學兩個月後，目前接案使用
-              Laravel 進行網頁開發並利用時間學習 Vue.js 前端框架，希望能充實自己能力。</p>
+              Laravel 進行網頁開發並利用時間學習其他框架如 Vue.js，希望能充實自己能力。</p>
           </div>
 
           <div id="slides" class="carousel slide padding" data-ride="carousel">
@@ -93,7 +93,6 @@
               <li data-target="#slides" data-slide-to="0" class="active"></li>
               <li data-target="#slides" data-slide-to="1"></li>
               <li data-target="#slides" data-slide-to="2"></li>
-              <li data-target="#slides" data-slide-to="3"></li>
             </ul>
 
             <div class="carousel-inner text-center">
@@ -103,18 +102,13 @@
                 </a>
               </div>
               <div class="carousel-item">
+                <a href="#mfnProj">
+                  <img src="/img/mfn-1.JPG" alt="bg">
+                </a>
+              </div>
+              <div class="carousel-item">
                 <a href="#instagram">
                   <img src="/img/1.JPG" alt="bg">
-                </a>
-              </div>
-              <div class="carousel-item">
-                <a href="#instagram">
-                  <img src="/img/2.JPG" alt="bg">
-                </a>
-              </div>
-              <div class="carousel-item">
-                <a href="#instagram">
-                  <img src="/img/3.JPG" alt="bg">
                 </a>
               </div>
             </div>
@@ -291,10 +285,39 @@
           <h2>Projects</h2>
           <hr>
           <div class="container">
-            <div class="row padding">
+            <div class="row padding" id="mfnProj">
               <div class="col-md-6">
                 <h5>2019.11 - now</h5>
-                <h5>網站重構 Code refactoring</h5>
+                <h5>網站重構</h5>
+
+                <div id="mfn" class="carousel slide p-3" data-ride="carousel">
+                  <ul class="carousel-indicators">
+                    <li data-target="#mfn" data-slide-to="0" class="active"></li>
+                    <li data-target="#mfn" data-slide-to="1"></li>
+                  </ul>
+      
+                  <div class="carousel-inner text-center my-carousel-inProject">
+                    <div class="carousel-item active">
+                      <a href="http://mfn.li/">
+                        <img src="/img/mfn-1.JPG" alt="bg">
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="http://mfn.li/">
+                        <img src="/img/mfn-2.JPG" alt="bg">
+                      </a>
+                    </div>
+                  </div>
+      
+                  <a class="carousel-control-prev" href="#mfn" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#mfn" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
               </div>
               <div class="col-md-6 content">
                 <p>
@@ -312,6 +335,41 @@
               <div class="col-md-6">
                 <h5>2019.09 - 2019.10</h5>
                 <h5>仿 Instagram 社群系統</h5>
+
+                <div id="ig" class="carousel slide p-3" data-ride="carousel">
+                  <ul class="carousel-indicators">
+                    <li data-target="#ig" data-slide-to="0" class="active"></li>
+                    <li data-target="#ig" data-slide-to="1"></li>
+                    <li data-target="#ig" data-slide-to="2"></li>
+                  </ul>
+      
+                  <div class="carousel-inner text-center my-carousel-inProject">
+                    <div class="carousel-item active">
+                      <a href="#instagram">
+                        <img src="/img/1.JPG" alt="bg">
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="#instagram">
+                        <img src="/img/2.JPG" alt="bg">
+                      </a>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="#instagram">
+                        <img src="/img/3.JPG" alt="bg">
+                      </a>
+                    </div>
+                  </div>
+      
+                  <a class="carousel-control-prev" href="#ig" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#ig" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
               </div>
               <div class="col-md-6 content">
                 <p>
