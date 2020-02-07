@@ -210,7 +210,9 @@ section {
 .content {
   background: #F2F3F7;
   padding: 10px 20px;
+  margin: 25px 0;
   border-radius: 8px;
+  /* box-shadow: 3px 3px 10px 3px rgba(163, 163, 163, 0.5); */
 }
 
 .child {
