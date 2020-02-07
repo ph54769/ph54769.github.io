@@ -4,9 +4,15 @@
   font-size: 2vw;
 }
 
-@media screen and (min-width: 812px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   * {
-     font-size: 18px;
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  * {
+    font-size: 18px;
   }
 }
 
@@ -36,9 +42,33 @@ section {
 
 /* left */
 
+.my-profile {
+  position: fixed;
+  overflow-y: scroll;
+  max-height: 100%;
+  padding-top: 130px;
+  /* padding-left: 10px; */
+}
+
 .my-profile-bg {
   background: #F2F3F7;
+  height: 100%;
+  width: 21vw;
+  max-width: 250px;
 }
+
+@media (max-width: 1200px) {
+  .my-profile-bg {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .my-profile-bg {
+    min-width: 115px;
+  }
+}
+
 
 .my-photo {
   height: 7rem;
@@ -47,20 +77,14 @@ section {
   background: #ffffff;
 }
 
-
-.nav-item:hover,
-.nav-item:focus,
-.nav-item:active {
+.nav-item:hover, .nav-item:focus, .nav-item:active {
   border-bottom: 1.5px solid rgb(252, 191, 191) !important;
   margin-bottom: -1.5px;
   transition: .3s;
   /* transform: scaleY(1.05); */
 }
 
-.navbar-light .navbar-nav .active>.nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show>.nav-link {
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
   border-bottom: 1.5px solid rgb(252, 191, 191) !important;
   margin-bottom: -1.5px;
   transition: .5s;
@@ -73,7 +97,7 @@ section {
 
 .my-icon {
   opacity: 1;
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
 }
 
 .my-icon:hover {
@@ -189,12 +213,19 @@ section {
   border-radius: 8px;
 }
 
+.child {
+  flex: 1 0 47%;
+  margin: 5px;
+  /* height: 100px; */
+  /* background-color: rgb(161, 161, 161); */
+}
+
 .block {
-  margin: 20px 0;
+  margin: 25px 0;
   padding: 10px 15px;
-  border: 1px solid rgb(200, 200, 202);
+  /* border: 1px solid rgb(200, 200, 202); */
   border-radius: 6px;
-  /* box-shadow: 4px 5px 10px 4px rgba(128, 128, 128, 0.5); */
+  box-shadow: 3px 3px 10px 3px rgba(163, 163, 163, 0.5);
 }
 
 .go-top {
@@ -205,18 +236,6 @@ section {
   opacity: 0.8;
 }
 
-.go-top > a:hover,
-.go-top > a:focus {
+.go-top>a:hover, .go-top>a:focus {
   color: rgb(59, 59, 59);
 }
-
-/* 
-@media (min-width: 768px) {
-  nav {
-    height: 3rem;
-    transition: 0.3s;
-  }
-  nav:hover {
-    height: 3.5rem;
-  }
-} */
