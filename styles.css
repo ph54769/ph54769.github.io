@@ -68,7 +68,6 @@ section {
   }
 }
 
-
 .my-photo {
   height: 7rem;
   width: 7rem;
@@ -103,17 +102,14 @@ section {
   opacity: 0.7;
 }
 
-.version {
-  /* left: 36.5%;
-  bottom: -4rem; */
-}
+.version {}
 
-.version > a {
+.version>a {
   font-size: .8rem;
   color: rgb(175, 176, 177);
 }
 
-.version > a:hover {
+.version>a:hover {
   border-bottom: 1.5px solid rgb(252, 191, 191) !important;
   margin-bottom: -1.5px;
   transition: .3s;
@@ -171,13 +167,10 @@ section {
   border-bottom: 2px solid rgba(103, 216, 154, 0.589);
 }
 
-
 .carousel-indicators li {
   cursor: pointer;
   background-color: rgb(161, 161, 161);
   opacity: 0.7;
-  /* -webkit-transition: opacity 0.6s ease;
-  transition: opacity 0.6s ease; */
 }
 
 .carousel-indicators .active {
@@ -204,7 +197,6 @@ section {
 }
 
 .my-carousel-caption-mfnProj {
-  /* background: rgba(0, 0, 0, 0.5); */
   position: absolute;
   right: 15%;
   bottom: 5px;
@@ -218,7 +210,6 @@ section {
 }
 
 .my-carousel-caption-ig {
-  /* background: rgba(0, 0, 0, 0.5); */
   position: absolute;
   right: 15%;
   bottom: 5px;
@@ -259,45 +250,10 @@ section {
   max-height: 240px;
 }
 
-.my-carousel-inProject .carousel-item a img{
+.my-carousel-inProject .carousel-item img {
   height: 240px;
   object-fit: scale-down;
 }
-
-/* 
-.my-carousel-inProject .carousel-item a img {
-  max-height: 250px;
-}
-
-@media (min-width: 1200px) {
-  .my-carousel-inProject .carousel-item a img {
-    max-height: 250px;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  .my-carousel-inProject .carousel-item a img {
-    max-height: 200px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-  .my-carousel-inProject .carousel-item a img {
-    max-height: 125px;
-  }
-}
-
-@media (min-width: 572px) and (max-width: 768px) {
-  .my-carousel-inProject .carousel-item a img {
-    max-height: 160px;
-  }
-}
-
-@media (max-width: 572px) {
-  .my-carousel-inProject .carousel-item a img {
-    max-height: 160px;
-  }
-} */
 
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23AAA' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
@@ -321,24 +277,19 @@ section {
   padding: 10px 20px;
   margin: 25px 0;
   border-radius: 8px;
-  /* box-shadow: 3px 3px 10px 3px rgba(163, 163, 163, 0.5); */
 }
 
 .child {
   flex: 1 0 47%;
   margin: 5px;
-  /* height: 100px; */
-  /* background-color: rgb(161, 161, 161); */
 }
 
 .block {
   margin: 25px 0;
   padding: 10px 15px;
-  /* border: 1px solid rgb(200, 200, 202); */
   border-radius: 6px;
   box-shadow: 3px 3px 10px 3px rgba(163, 163, 163, 0.5);
 }
-
 
 .timeline-centered {
   border-left: 4px solid rgb(242, 243, 247);
@@ -347,7 +298,6 @@ section {
 }
 
 .timeline-entry-inner {
-  /* border-left: 2px solid rgb(0, 0, 0); */
   padding-top: 1.5rem;
   padding-bottom: 1rem;
 }
@@ -382,19 +332,19 @@ section {
   background: white;
 }
 
-.timeline-icon-color1{
+.timeline-icon-color1 {
   background: rgb(63, 163, 245);
 }
 
-.timeline-icon-color2{
+.timeline-icon-color2 {
   background: rgb(252, 214, 92);
 }
 
-.timeline-icon-color3{
+.timeline-icon-color3 {
   background: rgb(245, 63, 63);
 }
 
-.timeline-icon-color4{
+.timeline-icon-color4 {
   background: rgb(74, 163, 108);
 }
 
@@ -407,18 +357,12 @@ section {
 .fa-pencil-alt {
   color: white;
 }
-/* 
-.fa-circle {
-  color: white;
-} */
 
 .timeline-label {
   background: #F2F3F7;
   padding: 1rem;
   border-radius: 8px;
 }
-
-
 
 .go-top {
   position: fixed;
